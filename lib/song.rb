@@ -18,4 +18,8 @@ class Song
     artist.add_song(self)
   end
 
+  def new_by_filename(filename)
+
+  end
+
 end
