@@ -24,6 +24,7 @@ class Song
     # splits it into an array
     # artist - file_pieces[0]
     # song = file_pieces[1]
+    # .strip takes all special characters and extra junk data
   end
 
 end
