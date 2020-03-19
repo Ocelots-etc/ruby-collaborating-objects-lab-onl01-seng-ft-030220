@@ -59,7 +59,6 @@ class Artist
     songs = self.songs.uniq
     songs.each do |song|
       puts song.name
-binding.pry
     end
   end
 
