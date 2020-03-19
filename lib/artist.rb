@@ -32,17 +32,18 @@ class Artist
   end
 
   def self.find_or_create_by_name(find_artist)
-    artists = @@all
-    n = 0
-    artists.each do |artist|
-      puts artist
-      if artist.name == find_artist
-        n+=1
-        return artist
-      end
-      unless n >= 1
-        artist = Artist.new(find_artist)
-        return artist
+    self.all.find { |artist| artist.name == name }
+    # artists = @@all
+    # n = 0
+    # artists.each do |artist|
+    #   puts artist
+    #   if artist.name == find_artist
+    #     n+=1
+    #     return artist
+    #   end
+    #   unless n >= 1
+    #     artist = Artist.new(find_artist)
+    #     return artist
       end
 
     end
