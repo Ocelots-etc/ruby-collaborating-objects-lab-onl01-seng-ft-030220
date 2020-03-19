@@ -39,7 +39,7 @@ class Artist
     self.all.find { |artist| artist.name == name }
   end
 
-  def print_songs(artist)
+  def print_songs
     # songs = self.songs.uniq
     artist.songs.each { |song| puts song.artist.name }
   end
