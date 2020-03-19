@@ -40,9 +40,8 @@ class Artist
   end
 
   def print_songs
-    songs = self.songs.uniq
-    songs.each do |song|
-      puts song.name
+    # songs = self.songs.uniq
+    songs.each { |song| song.name }
     end
   end
 
