@@ -9,7 +9,7 @@ class Artist
   def initialize(name)
     @name = name
     @@all << self
-    self
+    # self
   end
 
   def self.all
@@ -22,13 +22,13 @@ class Artist
   end
 
   def songs
-    @songs = []
+    # @songs = []
     Song.all.select { |song| song.artist == self }
-              #  if song.artist != nil
-              #   if song.artist.name == self.name
-                 @songs << song
-  end
-    @songs = @songs.uniq
+  #             #  if song.artist != nil
+  #             #   if song.artist.name == self.name
+  #                @songs << song
+  # end
+  #   @songs = @songs.uniq
   end
 
   def self.find_or_create_by_name(find_artist)
