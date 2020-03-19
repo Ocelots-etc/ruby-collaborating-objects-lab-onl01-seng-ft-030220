@@ -26,6 +26,7 @@ class Song
     # song = file_pieces[1]
     # .strip takes all special characters and extra junk data
     # like in scrapping instead of API and .gsub
+    new_song = self.new(song)
   end
 
 end
