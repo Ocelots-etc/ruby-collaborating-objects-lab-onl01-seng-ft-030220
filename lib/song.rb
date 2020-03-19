@@ -22,8 +22,8 @@ class Song
     artist, song = filename.split(" - ")
     # file_pieces[0] = filename.split(" - ")
     # splits it into an array
-    artist - file_pieces[0]
-    song = file_pieces[1]
+    # artist - file_pieces[0]
+    # song = file_pieces[1]
   end
 
 end
