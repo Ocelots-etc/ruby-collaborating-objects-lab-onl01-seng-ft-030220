@@ -29,7 +29,7 @@ class Artist
                  @songs << song
 
 
-       end
+  end
 
     @songs = @songs.uniq
 
