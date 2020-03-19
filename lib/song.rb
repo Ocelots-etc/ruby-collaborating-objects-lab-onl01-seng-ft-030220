@@ -25,6 +25,7 @@ class Song
     # artist - file_pieces[0]
     # song = file_pieces[1]
     # .strip takes all special characters and extra junk data
+    # like in scrapping instead of API
   end
 
 end
