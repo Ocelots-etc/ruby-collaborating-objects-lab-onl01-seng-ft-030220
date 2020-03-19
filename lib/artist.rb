@@ -24,9 +24,8 @@ class Artist
   def songs
     @songs = []
     Song.all.select { |song| song.artist == self }
-       Song.all.each do |song|
-            if song.artist != nil
-                if song.artist.name == self.name
+              #  if song.artist != nil
+              #   if song.artist.name == self.name
                  @songs << song
                 end
             end
