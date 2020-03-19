@@ -14,7 +14,8 @@ class MP3Importer
 
     end
     # /*.mp3 escapes the space
-
+    # glob does what?: opening MP3Importer and looping through each of those files
+    # first we have to take out from the ./spec through to where it says .mp3
   end
 
   def import
