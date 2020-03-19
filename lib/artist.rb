@@ -27,12 +27,8 @@ class Artist
               #  if song.artist != nil
               #   if song.artist.name == self.name
                  @songs << song
-
-
   end
-
     @songs = @songs.uniq
-
   end
 
   def self.find_or_create_by_name(find_artist)
