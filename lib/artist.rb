@@ -27,8 +27,8 @@ class Artist
               #  if song.artist != nil
               #   if song.artist.name == self.name
                  @songs << song
-                end
-            end
+
+
        end
 
     @songs = @songs.uniq
